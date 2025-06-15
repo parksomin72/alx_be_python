@@ -1,4 +1,4 @@
-ef safe_divide(numerator, denominator):
+def safe_divide(numerator, denominator):
     try:
         num = float(numerator)
         den = float(denominator)
